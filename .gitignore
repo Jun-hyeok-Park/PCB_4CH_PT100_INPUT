@@ -1,0 +1,105 @@
+# ============================================
+# Altium generated / temporary
+# ============================================
+
+# History / backup
+History/
+*/History/
+
+# Logs
+Project Logs for */
+*.LOG
+*.log
+
+# Outputs
+Project Outputs for */
+
+# Preview
+__Previews__/
+*/__Previews__/
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# Altium generated
+*.PrjPcbStructure
+
+# Archives
+*.zip
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+
+# ============================================
+# Development / analysis temporary files
+# ============================================
+
+.pnpm-store/
+node_modules/
+.review_deps/
+__pycache__/
+*.pyc
+
+
+# ============================================
+# Vendor EDA formats - not needed
+# ============================================
+
+**/Allegro/
+**/Altair/
+**/CADSTAR/
+**/CR-5000/
+**/CR-8000/
+**/Capture/
+**/CircuitStudio/
+**/DEHDL/
+**/DesignSpark PCB/
+**/DesignSpark PCB PRO/
+**/DipTrace/
+**/EAGLE/
+**/Easy-PC/
+**/EasyEDA/
+**/KiCad/
+**/OrCAD_Allegro16/
+**/PADS/
+**/Proteus/
+**/Pulsonix/
+**/Quadcept/
+**/SOLIDWORKS PCB/
+**/TARGET 3001!/
+**/Xpedition/
+**/eCADSTAR/
+
+*.epw
+*.LibPkg
+
+
+# ============================================
+# LIB_* vendor packages
+# Keep only Altium + STEP
+# ============================================
+
+/LIB_*/**
+
+# Allow directory traversal
+!/LIB_*/**/
+
+# Keep Altium libraries
+!/LIB_*/**/*.SchLib
+!/LIB_*/**/*.PcbLib
+!/LIB_*/**/*.IntLib
+
+# Keep STEP models
+!/LIB_*/**/*.STEP
+!/LIB_*/**/*.STP
+!/LIB_*/**/*.step
+!/LIB_*/**/*.stp
